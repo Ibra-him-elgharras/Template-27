@@ -52,6 +52,7 @@ body{
 .container form .social .twit{
     width: 48%;
     height: 100%;
+    border: none;
     border-radius: 3px;
     color: #ffffff;
     text-align: center;
@@ -65,6 +66,7 @@ body{
 
 .container form .social .fac{
     background: #0b0488d6;
+    transition: all 0.3s ease;
 }
 
 .container form .social .fac:hover{
@@ -74,9 +76,41 @@ body{
 
 .container form .social .twit{
     background: #129df3df;
+    transition: all 0.3s ease;
 }
 
 .container form .social .twit:hover{
     background: #0696f0fe;
     cursor: pointer;
 }
+
+.container form .email,.password{
+    margin-top: 5px;
+    height: 30px;
+}
+
+
+.container form .email input,
+.container form .password input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 35px;
+    border: 1px solid;
+    margin-top: 3px;
+    color: #000000a6;
+}
+
+.container form .email,.password {
+    position: relative;
+}
+
+.container form .email i,
+.container form .password i{
+    position: absolute;
+    left: 20px;
+    line-height: 35px;
+    font-size: 12px;
+    color: #000000a6;
+}
+  
