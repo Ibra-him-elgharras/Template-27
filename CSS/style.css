@@ -8,11 +8,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-
-
 body{
     width: 100%;
     height: 100vh;
@@ -28,4 +23,60 @@ body{
     padding: 25px 20px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container form{
+    background: yellow;
+}
+
+.container form .title{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.container form .social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+.container form .social .fac,
+.container form .social .twit{
+    width: 48%;
+    height: 100%;
+    border-radius: 3px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.container form .social .fac i,
+.container form .social .twit i{
+    margin-right: 5px;
+}
+
+.container form .social .fac{
+    background: #0b0488d6;
+}
+
+.container form .social .fac:hover{
+    background: #0b0488;
+    cursor: pointer;
+}
+
+.container form .social .twit{
+    background: #129df3df;
+}
+
+.container form .social .twit:hover{
+    background: #0696f0fe;
+    cursor: pointer;
 }
