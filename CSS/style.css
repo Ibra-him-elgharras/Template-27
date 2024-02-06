@@ -113,4 +113,34 @@ body{
     font-size: 12px;
     color: #000000a6;
 }
-  
+
+.container form .confirm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0 10px;
+    background: red;
+}
+
+.container form .confirm .left{
+    font-size: 13px;
+}
+
+.container form .confirm .right a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #663399;
+}
+
+.container form .login a{
+    height: 30px;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0;
+    border-radius: 5px; 
+    color: white;
+    background: #0b0488;
+}
