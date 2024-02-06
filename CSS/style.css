@@ -17,24 +17,19 @@ body{
 }
 
 .container{
-    background: gray;
-    width: 300px;
-    height: 400px;
+    background: #ffffff;
+    width: 280px;
+    height: 300px;
     padding: 25px 20px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.container form{
-    background: yellow;
-}
-
-.container form .title{
-    width: 100%;
-    font-size: 18px;
+.container form label{
+    position: relative;
+    left: 25%;
+    font-size: 20px;
     font-weight: 700;
-    text-align: center;
-    border: none;
     letter-spacing: 1px;
 }
 
@@ -99,10 +94,12 @@ body{
     border: 1px solid;
     margin-top: 3px;
     color: #000000a6;
+    outline: none;
 }
 
 .container form .email,.password {
     position: relative;
+    
 }
 
 .container form .email i,
@@ -120,11 +117,15 @@ body{
     justify-content: space-between;
     width: 100%;
     margin: 5px 0 10px;
-    background: red;
 }
 
 .container form .confirm .left{
     font-size: 13px;
+}
+
+.container form .confirm .left input{
+    position: relative;
+    top: 3px;
 }
 
 .container form .confirm .right a{
@@ -133,14 +134,32 @@ body{
     color: #663399;
 }
 
-.container form .login a{
+.container form .login{
+    background: #a422ad;
     height: 30px;
     width: 100%;
-    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
     text-align: center;
-    font-size: 16px;
-    padding: 5px 0;
-    border-radius: 5px; 
-    color: white;
-    background: #0b0488;
+    margin-bottom: 15px;
+}
+
+.container form .login a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container form .sing{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.container form .sing a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #663399;
 }
